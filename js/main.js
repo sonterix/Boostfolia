@@ -9,7 +9,7 @@ $(function($){
     });
 
         // click on nav-menu
-    $("nav a").click(function() {
+    $("nav a").on('click',function() {
         $('nav').slideUp('200');
 
         var clicked = $(this).attr("href")
@@ -35,13 +35,13 @@ $(function($){
     });
 
     // iframe video
-    $('#video-scene').click(function(){
+    $('#video-scene').on('click', function(){
         $('#video-scene iframe').fadeIn(1500);
         $('#video-scene iframe').attr('src', 'https://www.youtube.com/embed/iKzRIweSBLA?list=PLvFYFNbi-IBFeP5ALr50hoOmKiYRMvzUq&autoplay=1');
     })
 
     // tabs
-    $('#gallery ul li').click(function(){
+    $('#gallery ul li').on('click', function(){
         $('.active-tab').removeClass('active-tab');
         $(this).addClass('active-tab');
 
@@ -128,6 +128,10 @@ $(function($){
     // locate on map
     $('#locate-on-map small').on('click', function(){
         $('#map').slideToggle('800');
-    })
+    });
+
+    // to top button
+    $('#to-top-button a').on('click', function{
+    });
 
 });	

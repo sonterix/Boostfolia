@@ -436,7 +436,13 @@
             </div>
         </div>
     </footer>
-    
+
+    <!-- TO-TOP BUTTON -->
+    <section>
+        <div id="to-top-button">
+            <a href="#top">to top</a>
+        </div>
+    </section>
 
     <!-- JAVASCRIPT -->
         <!-- jQuery -->
