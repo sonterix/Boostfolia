@@ -3,10 +3,12 @@ $(function($){
     $.scrollSpeed(100, 1200);
 
     // nav
+        //show-hide nav bar
     $('#humburger-menu').on('click', function(){
         $('nav').slideToggle('200');
     });
 
+        // click on nav-menu
     $("nav a").click(function() {
         $('nav').slideUp('200');
 
@@ -75,6 +77,7 @@ $(function($){
     });
 
     // who we are
+        // autoplay
     var checkerWhoWeAre = 1;
     setInterval(function(){
         $('.dot').eq(checkerWhoWeAre).click();
@@ -86,7 +89,7 @@ $(function($){
         }
       }, 4000);
       
-
+        // click on dots
     $('.dot').on('click', function(){
         var indexCurrent = $('.dot-selected').index();
         $('.dot-selected').removeClass('dot-selected');
@@ -98,6 +101,28 @@ $(function($){
         var indexNew = $(this).index();
         $('.info').eq(indexNew).delay(200).fadeIn(200);
         $('.small-info').eq(indexNew).delay(200).fadeIn(200);
+    });
+
+        // counter %
+    $(window).scroll(function () {
+        var scrTop = $(window).scrollTop();
+        var whoWeAre = $('#who-we-are').offset().top-250;
+
+        if(scrTop >= whoWeAre) {
+            $('.info-counter').each(function(){
+                var from = 0;
+                var to = $(this).text();
+                var currentElement = $(this);
+        
+                setInterval(function () {
+                    from++;
+                    if (from <= to) {
+                        currentElement.html(from).append('%');
+                        currentElement.parent().find('.value-box-tb').css('width', from + '%');
+                    };
+                }, 50);
+            });
+        }
     });
 
     // locate on map

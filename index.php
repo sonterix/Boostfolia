@@ -170,22 +170,22 @@
                         <tr>
                             <th>HTML</th>
                             <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 95%;"></div></div></th>
-                            <th>95%</th>
+                            <th class="info-counter">95</th>
                         </tr>
                         <tr>
                             <th>CSS</th>
                             <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 93%;"></div></div></th>
-                            <th>93%</th>
+                            <th class="info-counter">93</th>
                         </tr>
                         <tr>
                             <th>JS</th>
                             <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 73%;"></div></div></th>
-                            <th>73%</th>
+                            <th class="info-counter">73</th>
                         </tr>
                         <tr>
                             <th>PHP</th>
                             <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 86%;"></div></div></th>
-                            <th>86%</th>
+                            <th class="info-counter">86</th>
                         </tr>
                     </table>
                 </div>
@@ -196,22 +196,22 @@
                         <tr>
                             <th>PHOTOSHOP</th>
                             <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 88%;"></div></div></th>
-                            <th>88%</th>
+                            <th class="info-counter">88</th>
                         </tr>
                         <tr>
                             <th>ILLUSTRATOR</th>
                             <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 92%;"></div></div></th>
-                            <th>92%</th>
+                            <th class="info-counter">92</th>
                         </tr>
                         <tr>
                             <th>SKETCH</th>
                             <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 87%;"></div></div></th>
-                            <th>87%</th>
+                            <th class="info-counter">87</th>
                         </tr>
                         <tr>
                             <th>GIMP</th>
                             <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 98%;"></div></div></th>
-                            <th>98%</th>
+                            <th class="info-counter">98</th>
                         </tr>
                     </table>
                 </div>
@@ -222,22 +222,22 @@
                             <tr>
                                 <th>JAVA</th>
                                 <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 99%;"></div></div></th>
-                                <th>99%</th>
+                                <th class="info-counter">99</th>
                             </tr>
                             <tr>
                                 <th>CMMI</th>
                                 <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 95%;"></div></div></th>
-                                <th>95%</th>
+                                <th class="info-counter">95</th>
                             </tr>
                             <tr>
                                 <th>RUP</th>
                                 <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 70%;"></div></div></th>
-                                <th>70%</th>
+                                <th class="info-counter">70</th>
                             </tr>
                             <tr>
                                 <th>LEAN</th>
                                 <th class="th-width-tb"><div class="value-tb"><div class="value-box-tb" style="width: 57%;"></div></div></th>
-                                <th>57%</th>
+                                <th class="info-counter">57</th>
                             </tr>
                         </table>
                 </div>

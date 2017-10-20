@@ -287,7 +287,7 @@ nav li:hover{
     border-bottom: 2px solid #fff;
 }
 #gallery ul li:hover{
-    border-bottom: 2px solid #fc926f;
+    border-bottom: 2px solid #fdaa91;
 }
 #block{
     max-height: 735px;
@@ -367,8 +367,11 @@ nav li:hover{
     background-color: #fff;
     cursor: pointer;
 }
+.dot:hover{
+    background-color: #fdaa91;
+}
 .dot-selected{
-    background-color: #8d8381;
+    background-color: #e84c3d !important;
 }
 #left-block-dots{
     display: flex;
