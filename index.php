@@ -443,6 +443,8 @@
         <script src="js/jquery/jquery-3.2.1.min.js"></script>
         <!-- Slick -->
         <script src="js/slick/slick/slick.min.js"></script>
+        <!-- Scroll Speed -->
+        <script src="js/scroll-speed/jQuery.scrollSpeed.js"></script>
         <!-- main js -->  
         <script src="js/main.js"></script>
 

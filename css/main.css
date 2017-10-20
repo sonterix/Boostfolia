@@ -284,6 +284,10 @@ nav li:hover{
     color:#595959;
     font-size: 14px;
     text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+}
+#gallery ul li:hover{
+    border-bottom: 2px solid #fc926f;
 }
 #block{
     max-height: 735px;
@@ -300,7 +304,7 @@ nav li:hover{
 .active-tab{
     color: black;
     font-weight: bold;
-    border-bottom: 2px solid #fe6027;
+    border-bottom: 2px solid #fe6027 !important;
 }
 .active-block{
     display: inline-block !important;

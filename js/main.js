@@ -1,4 +1,6 @@
-$(function(){
+$(function($){
+    // scroll speed
+    $.scrollSpeed(100, 1200);
 
     // nav
     $('#humburger-menu').on('click', function(){
@@ -41,7 +43,7 @@ $(function(){
         $('.active-tab').removeClass('active-tab');
         $(this).addClass('active-tab');
 
-        var index = $('li').index(this);
+        var index = $('#gallery li').index(this);
         $('.active-block').removeClass('active-block');
         $('#block').find('div').eq(index).addClass('active-block');
 
@@ -73,7 +75,19 @@ $(function(){
     });
 
     // who we are
-    $('.dot').click(function(){
+    var checkerWhoWeAre = 1;
+    setInterval(function(){
+        $('.dot').eq(checkerWhoWeAre).click();
+
+        if(checkerWhoWeAre == 3){
+            checkerWhoWeAre = 0;
+        } else {
+            checkerWhoWeAre++;
+        }
+      }, 4000);
+      
+
+    $('.dot').on('click', function(){
         var indexCurrent = $('.dot-selected').index();
         $('.dot-selected').removeClass('dot-selected');
         $(this).addClass('dot-selected');
