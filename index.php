@@ -53,6 +53,7 @@
             <img src="img/slider/2.jpg" alt="slider-img-2">
             <img src="img/slider/3.jpg" alt="slider-img-3">
         </div>
+        <div id="slider-s"></div>
     </section>
 
     <!-- ABOUT US -->

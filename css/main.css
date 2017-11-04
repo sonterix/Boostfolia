@@ -143,6 +143,7 @@ nav{
 }
 nav ul{
     margin: 0;
+    padding: 0;
 }
 nav a{
     color: #fff;
@@ -237,6 +238,7 @@ nav li:hover{
     font-size: 28px;
     color: #fff;
     text-transform: uppercase;
+    line-height: 28px;
 }
 #scene p{
     color: #595959;
@@ -274,14 +276,15 @@ nav li:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    padding: 0;
 }
 #gallery ul li{
-    margin: 0 20px;
+    margin: 0 2%;
     padding: 5px 2px;
 	cursor: pointer;
 	display: inline-block;
-    color:#595959;
+    color: #595959;
     font-size: 14px;
     text-transform: uppercase;
     border-bottom: 2px solid #fff;
@@ -290,7 +293,6 @@ nav li:hover{
     border-bottom: 2px solid #fdaa91;
 }
 #block{
-    max-height: 735px;
     height: 100%;
     background-color: #ebebeb;
     line-height: 0;
@@ -762,4 +764,335 @@ nav li:hover{
     top: 15px;
     border: 10px solid transparent;
     border-top-color: #f5744c;
+}
+
+/* MEDIA */
+@media screen and (max-width: 1000px) {
+
+    .wrapper{
+        padding: 0 5% !important;
+    }
+    .caption-p{
+        font-size: 14px;
+    }
+
+    /* nav */
+    nav li{
+        display: block;
+        font-size: 18px;        
+    }
+
+
+    /* about us */
+    #boxes{
+        display: block;
+        margin-bottom: 50px;
+    }
+    #boxes div{
+        width: 100%;
+        margin: 8px 0;
+    }
+    #boxes div p{
+        max-height: 36px;
+        font-size: 14px;
+    }
+    #boxes div h3{
+        font-size: 22px;
+    }
+
+
+    /* watch behind the scene */
+    #scene,
+    #video-scene{
+        float: none; 
+        width: 100%; 
+        height: 400px;
+    }
+
+    #scene p{
+        font-size: 16px;
+    }
+    #scene button{
+        padding: 12px 38px;
+    }
+
+
+    /* our works */
+    #block img{
+        width: 33%;
+    }
+
+    #gallery ul li{
+        font-size: 16px;
+    }
+
+
+    /* who we are */
+    .info{
+        padding: 2% 4% 0 4%;
+    }
+
+    .small-info img{
+        width: 60%;
+        height: 60%;
+        margin: 32px 0 15px 0;
+    }
+
+    #left-block, #right-block{
+        margin-bottom: 50px;
+        min-height: 400px;
+    }
+
+    #left-block-dots{
+        margin: 70px 0;
+    }
+
+
+    /* some features */
+    .features{
+        width: 49%;
+    }
+
+
+    /* blog posts */
+    .blog-box{
+        float: none;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .blog-box-data h4{
+        font-size: 26px;
+    }
+    .blog-box-data p{
+        font-size: 16px;
+    }
+
+
+    /* chose plan */
+    .chose-plan-box{
+        width: 46%;
+        margin: 15px 5px;
+    }
+    .chose-plan-box table{
+        margin: 30px auto 0 auto;
+    }
+    .chose-plan-box button{
+        margin: 35px 0;
+    }
+
+
+    /* get in touch */
+    #get-in-touch-form-1, #get-in-touch-form-2{
+        width: 40%;
+    }
+
+    #get-in-touch-form-3{
+        width: 82.6%;
+    }
+
+    #get-in-touch-form button{
+        padding: 20px 110px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .wrapper{
+        padding: 0 !important;
+    }
+    .caption-p{
+        margin: 15px auto;
+        padding: 1%;
+        font-size: 18px;
+    }
+
+
+    /* nav */
+    #logo{
+        margin: 0 35px;
+    }
+
+    #humburger-menu{
+        right: 35px; 
+    }
+
+    nav li{
+        font-size: 22px;
+    }
+
+
+    /* slider */
+    #slider{
+        display: none;
+    }
+    #slider-s{
+        width: 100%;
+        height: 400px;
+        background-image: url('../img/slider/1.jpg');
+        background-size: cover; 
+        background-position: center;
+    }
+
+
+    /* about us */
+    #boxes div{
+        margin: 0;
+    }
+    #boxes div h3{
+        font-size: 28px;
+    }
+    #boxes div p{
+        max-height: 48px;
+        font-size: 18px;
+    }
+
+
+    /* watch behind the scene */
+    #scene p{
+        font-size: 18px;
+    }
+    #scene button{
+        font-size: 18px;
+        padding: 16px 110px;
+    }
+
+
+    /* our works */
+    #gallery ul{
+        display: none;
+    }
+    
+    #block img{
+        width: 50%;
+    }
+
+    #small-slider img{
+        display: none;
+    }
+
+
+    /* who we are */
+    .small-info img{
+        width: 30%;
+        height: 30%;
+        margin: 20px 0 10px 0;
+    }
+    .small-info h3, 
+    .small-info p{
+        font-size: 28px;
+    }
+
+    .info{
+        padding: 1% 4% 0 4%;
+    }
+    .info h3{
+        font-size: 26px;
+    }
+    .info p{
+        font-size: 20px;
+    }
+
+    #left-block, #right-block{
+        float: none;
+        width: 100% !important;
+        min-height: 375px;
+        margin: 0;
+    }
+
+    #left-block-dots{
+        margin: 30px 0;
+    }
+
+
+    /* some features */ 
+    .features p{
+        font-size: 20px;
+    }
+
+
+    /* blog post */
+    .blog-box-data h4{
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    .blog-box-data p{
+        font-size: 20px;
+    }
+
+    .blog-box-time,
+    .blog-box-like,
+    .blog-box-comment{
+        margin: 10px;
+    }
+
+
+    /* chose plan */
+    #chose-plan-border{
+        width: 98%;
+        margin: 0 1%;
+    }
+
+    .chose-plan-box{
+        width: 100%;
+        margin: 15px 0;
+    }
+    .chose-plan-top-box{
+        padding: 28px 0;
+    }
+
+    .chose-plan-box h4{
+        font-size: 26px;
+        line-height: 22px;
+    }
+    .chose-plan-box h3{
+        font-size: 56px;
+    }
+    .chose-plan-box button {
+        font-size: 18px;
+        padding: 15px 100px;
+    }
+    .chose-plan-box th{
+        font-size: 22px;
+    }
+
+
+    /* get in touch */
+    .get-in-touch-form-input p{
+        font-size: 20px;
+    }
+
+    #get-in-touch-form-1,
+    #get-in-touch-form-2{
+        width: 96%;
+    }
+    #get-in-touch-form-3{
+        width: 94%;
+    }
+    #get-in-touch-form button{
+        padding: 24px 110px;
+        font-size: 18px;        
+    }
+
+
+    /* footer */
+    #locate-on-map h3{
+        font-size: 36px;    
+    }
+
+    #footer-logo img{
+        width: 6%;
+    }
+
+    #footer-in h3{
+        font-size: 32px;
+    }
+    #footer-in p{
+        font-size: 16px;
+    }
+    #footer-in b{
+        font-size: 16px;
+    }
 }

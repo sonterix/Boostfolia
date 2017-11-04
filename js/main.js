@@ -66,13 +66,31 @@ $(function($){
     $('.active-tab').click();
 
     // slick small-slider
-    $('#small-slider').slick({
-        autoplay: true,
-        autoplaySpeed: 1500,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1
-    });
+    if(screen.width < 900){
+        $('#small-slider').slick({
+            autoplay: true,
+            autoplaySpeed: 1500,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+    } else if(screen.width < 1200){
+        $('#small-slider').slick({
+            autoplay: true,
+            autoplaySpeed: 1500,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1
+        });
+    } else {
+        $('#small-slider').slick({
+            autoplay: true,
+            autoplaySpeed: 1500,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1
+        });
+    }
 
     // who we are
         // autoplay
@@ -131,7 +149,7 @@ $(function($){
     // to top button
         // check position screen
         $(window).scroll(function(){
-            if ($(this).scrollTop() > 500) {
+            if ($(this).scrollTop() > 500 && screen.width > 900) {
                 $('#to-top-button').fadeIn(300);
             } else {
                 $('#to-top-button').fadeOut(300);
