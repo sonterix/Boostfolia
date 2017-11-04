@@ -142,7 +142,7 @@ $(function($){
     });
 
     // locate on map
-    $('#locate-on-map small').on('click', function(){
+    $('#locate-on-map h3').on('click', function(){
         $('#map').slideToggle('800');
     });
 
