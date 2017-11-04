@@ -440,7 +440,7 @@
     <!-- TO-TOP BUTTON -->
     <section>
         <div id="to-top-button">
-            <a href="#top">to top</a>
+            <a href="#top"><small></small></a>
         </div>
     </section>
 
@@ -449,11 +449,8 @@
         <script src="js/jquery/jquery-3.2.1.min.js"></script>
         <!-- Slick -->
         <script src="js/slick/slick/slick.min.js"></script>
-        <!-- Scroll Speed -->
-        <script src="js/scroll-speed/jQuery.scrollSpeed.js"></script>
         <!-- main js -->  
         <script src="js/main.js"></script>
-
 
         <!-- 
             > СДЕЛАТЬ МОБИЛЬНУЮ ВЕРСИЮ

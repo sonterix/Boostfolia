@@ -1,6 +1,4 @@
 $(function($){
-    // scroll speed
-    $.scrollSpeed(100, 1200);
 
     // nav
         //show-hide nav bar
@@ -131,7 +129,26 @@ $(function($){
     });
 
     // to top button
-    $('#to-top-button a').on('click', function{
+        // check position screen
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 500) {
+                $('#to-top-button').fadeIn(300);
+            } else {
+                $('#to-top-button').fadeOut(300);
+            }
+        });
+
+        // scroll to top
+    $('#to-top-button').on('click', function(){
+
+        var clicked = $(this).attr("href");
+        var destination = $(clicked).offset();
+
+        $('html:not(:animated),body:not(:animated)').animate({
+            scrollTop : 0
+        }, 1200);
+
+        return false;
     });
 
 });	
