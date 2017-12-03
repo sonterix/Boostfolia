@@ -1,14 +1,17 @@
 $(function($){
+    new WOW().init();
 
     // nav
         //show-hide nav bar
     $('#humburger-menu').on('click', function(){
+        $('#humburger-menu span').toggleClass('activeBurger');
         $('nav').slideToggle('200');
     });
 
         // click on nav-menu
     $("nav a").on('click',function() {
         $('nav').slideUp('200');
+        $('#humburger-menu span').removeClass('activeBurger');
 
         var clicked = $(this).attr("href")
 
@@ -28,7 +31,7 @@ $(function($){
     // slick slider
     $('#slider').slick({
         autoplay: true,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 1500,
         arrows: true
     });
 
@@ -55,7 +58,7 @@ $(function($){
             success: function(result){
                 $('.active-block').html("");
                 $.each(result, function(index, value){
-                    $('.active-block').append("<img src='../img/gallery/" + value + "' alt='" + index + "'>");
+                    $('.active-block').append("<img class='wow fadeIn' src='../img/gallery/" + value + "' alt='" + index + "'>");
                 });
             },
         });
@@ -144,6 +147,7 @@ $(function($){
     // locate on map
     $('#locate-on-map h3').on('click', function(){
         $('#map').slideToggle('800');
+        $('#locate-on-map small').toggleClass('map-active');
     });
 
     // to top button

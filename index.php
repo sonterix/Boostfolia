@@ -12,6 +12,8 @@
         <!-- Slick -->
         <link rel="stylesheet" href="js/slick/slick/slick.css">
         <link rel="stylesheet" href="js/slick/slick/slick-theme.css">
+        <!-- animate css --> 
+        <link rel="stylesheet" href="css/animate.css">
         <!-- main css --> 
         <link rel="stylesheet" href="css/main.css">
 </head>
@@ -21,13 +23,13 @@
     <header>
         <div class="wrapper" id="header">
             <!-- logo -->
-            <div id="logo">
+            <div id="logo" class="wow slideInLeft">
                 <img src="img/Logo.png" alt="logo" width="25">
                 <p>boostfolia</p>
             </div>
 
             <!-- hamburger menu -->
-            <div id="humburger-menu">
+            <div id="humburger-menu" class="wow slideInRight">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -61,18 +63,18 @@
         <div class="wrapper">
             <div class="caption" id="about-us">
                 <h2 class="caption-h2">about us</h2>
-                <p class="caption-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
+                <p class="caption-p wow slideInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
             </div>
             <div id="boxes">
-                <div>
+                <div class="wow zoomIn">
                     <h3>creative design</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit.</p>
                 </div>
-                <div>
+                <div class="wow zoomIn">
                     <h3>uniqu portfolio</h3>
                     <p>Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
                 </div>
-                <div>
+                <div class="wow zoomIn">
                     <h3>infinite updates</h3>
                     <p>Autem, accusantium id. Ducimus impedit autem vero blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
@@ -82,14 +84,14 @@
 
     <!-- WATCH BEHIND THE SCENE -->
     <section>
-        <div id="scene">
+        <div id="scene" class="wow slideInLeft">
             <div class="wrapper">
                 <h2>watch behind the scene</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <button class="btn">play now</button>
             </div>
         </div>
-        <div id="video-scene">
+        <div id="video-scene" class="wow slideInRight">
             <iframe src="" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="clear"></div>
@@ -100,7 +102,7 @@
         <div class="wrapper">
             <div class="caption" id="our-works">
                 <h2 class="caption-h2">our works</h2>
-                <p class="caption-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
+                <p class="caption-p wow slideInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
             </div>
         </div>
         <div id="gallery">
@@ -139,9 +141,9 @@
         <div class="wrapper">
             <div class="caption" id="who-we-are">
                 <h2 class="caption-h2">who we are</h2>
-                <p class="caption-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
+                <p class="caption-p wow slideInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
             </div>
-            <div id="left-block">
+            <div id="left-block" class="wow fadeIn">
                 <div class="small-info">
                     <img src="img/humans/1-human.jpg" alt="1-human">
                     <h3>arthur mendoza</h3>
@@ -163,7 +165,7 @@
                     <div class="dot"></div>
                 </div>
             </div>
-            <div id="right-block">
+            <div id="right-block" class="wow fadeIn">
                 <div class="info">
                     <h3>my skills</h3>
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -253,28 +255,28 @@
             <h2>some features</h2>
         </div>
         <div class="wrapper">
-            <div class="features">
+            <div class="features wow slideInUp">
                 <div class="features-img">
                     <img src="img/img-4.png" alt="1-features">
                 </div>
                 <p>Shortcodes</p>
                 <h4>46</h4>
             </div>
-            <div class="features">
+            <div class="features wow slideInDown">
                 <div class="features-img">
                     <img src="img/img-5.png" alt="2-features">
                 </div>
                 <p>Integrated Plugins</p>
                 <h4>128</h4>
             </div>
-            <div class="features">
+            <div class="features wow slideInUp">
                 <div class="features-img">
                     <img src="img/img-6.png" alt="3-features">
                 </div>
                 <p>Creative Products</p>
                 <h4>450</h4>
             </div>
-            <div class="features">
+            <div class="features wow slideInDown">
                 <div class="features-img">
                     <img src="img/img-7.png" alt="4-features">
                 </div>
@@ -290,9 +292,9 @@
         <div class="wrapper">
             <div class="caption" id="blog-post">
                 <h2 class="caption-h2">blog post</h2>
-                <p class="caption-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
+                <p class="caption-p wow slideInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
             </div>
-                <div class="blog-box">
+                <div class="blog-box wow slideInLeft">
                     <div id="blog-box-img-1"></div>
                     <div class="blog-box-data">
                         <h4>Creat Creative & Clean</h4>
@@ -304,7 +306,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog-box">
+                <div class="blog-box wow slideInUp">
                     <div id="blog-box-img-2"></div>
                     <div class="blog-box-data">
                         <h4>Make A Sleek Break</h4>
@@ -316,7 +318,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog-box">
+                <div class="blog-box wow slideInRight">
                     <div id="blog-box-img-3"></div>
                     <div class="blog-box-data">
                         <h4>Creative Manipulations</h4>
@@ -338,7 +340,7 @@
             <div id="chose-plan">
                 <h2>chose plan</h2>
             </div>
-            <div class="chose-plan-box">
+            <div class="chose-plan-box wow zoomIn">
                 <div class="chose-plan-top-box">
                     <h4>basic</h4>
                     <h3>Free</h3>
@@ -351,7 +353,7 @@
                 </table>
                 <button class="btn">purchase</button>
             </div>
-            <div class="chose-plan-box" id="chose-plan-border">
+            <div class="chose-plan-box wow zoomIn" id="chose-plan-border">
                 <div class="chose-plan-top-box">
                     <h4>standart</h4>
                     <h3><small>$</small>24.00</h3>
@@ -364,7 +366,7 @@
                 </table>
                 <button class="btn">purchase</button>
             </div>
-            <div class="chose-plan-box">
+            <div class="chose-plan-box wow zoomIn">
                 <div class="chose-plan-top-box">
                     <h4>premium</h4>
                     <h3><small>$</small>40.00</h3>
@@ -377,7 +379,7 @@
                 </table>
                 <button class="btn">purchase</button>
             </div>
-            <div class="chose-plan-box">
+            <div class="chose-plan-box wow zoomIn">
                 <div class="chose-plan-top-box">
                     <h4>professional</h4>
                     <h3><small>$</small>75.00</h3>
@@ -399,9 +401,9 @@
         <div class="wrapper">
             <div class="caption" id="get-in-touch">
                 <h2 class="caption-h2">get in touch</h2>
-                <p class="caption-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
+                <p class="caption-p wow slideInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa dolorem eius eos neque suscipit impedit. Autem, accusantium id. Ducimus impedit autem vero blanditiis.</p>
             </div>
-            <form action="" method="POST" id="get-in-touch-form">
+            <form action="" method="POST" id="get-in-touch-form" class="wow pulse">
                 <div class="get-in-touch-form-input" id="get-in-touch-form-1">
                     <p>name <b>*</b></p>
                     <input type="text" name="Send[name]">
@@ -450,12 +452,9 @@
         <script src="js/jquery/jquery-3.2.1.min.js"></script>
         <!-- Slick -->
         <script src="js/slick/slick/slick.min.js"></script>
+        <!-- wow js -->  
+        <script src="js/wow/wow.min.js"></script>
         <!-- main js -->  
         <script src="js/main.js"></script>
-
-        <!-- 
-            > СДЕЛАТЬ МОБИЛЬНУЮ ВЕРСИЮ
-            > ДОБАВИТЬ ХОВЕР ЭФФЕКТЫ
-        -->
 </body>
 </html>
