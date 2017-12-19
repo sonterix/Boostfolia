@@ -58,7 +58,7 @@ $(function($){
             success: function(result){
                 $('.active-block').html("");
                 $.each(result, function(index, value){
-                    $('.active-block').append("<img class='wow fadeIn' src='../img/gallery/" + value + "' alt='" + index + "'>");
+                    $('.active-block').append("<img class='wow fadeIn' src='img/gallery/" + value + "' alt='" + index + "'>");
                 });
             },
         });
